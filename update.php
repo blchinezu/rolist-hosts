@@ -42,10 +42,11 @@ class Updater {
     private function generateHosts($source) {
         $hosts = array();
 
-        $filtered = preg_replace('/^[^|].*/m', '', $source);
-        $filtered = preg_replace('/[\n]+/m', "\n", $filtered);
+        preg_match_all('/\|\|(.*)\^/', $source, $matches);
 
-        print_r($filtered);
+        $matches = array_unique($matches[1]);
+
+        print_r($matches);
     }
 
     private function loadFile($path) {
