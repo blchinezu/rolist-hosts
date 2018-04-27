@@ -42,11 +42,17 @@ class Updater {
     private function generateHosts($source) {
         $hosts = array();
 
-        preg_match_all('/\|\|(.*)\^/', $source, $matches);
+        // Get only domains
+        preg_match_all('/\n\|\|(.*)\^/', $source, $matches);
 
+        // Keep unique values
         $matches = array_unique($matches[1]);
 
-        print_r($matches);
+        // Sort
+        asort($matches);
+
+        // Build
+        return '0.0.0.0 ' . implode("\n0.0.0.0 ", $matches);
     }
 
     private function loadFile($path) {
