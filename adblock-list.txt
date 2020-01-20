@@ -3,15 +3,16 @@
 ! Original list, by Menetz, was handed over to Zoso to host and maintain.
 ! A complementary list, with more strict items, is here zoso.ro/pages/rolist2.txt
 ! Expires: 2 days
-! Homepage: https://zoso.ro/rolist/
+! Homepage: https://www.zoso.ro/rolist/
 ! Email: mail@zoso.ro
-! Last modified: 03 FEB 2019 18:00 UTC
+! Last modified: 13 IAN 2020 20:00 UTC
 
 !hosts
 ||01.creativecdn.com^
 ||2mdn.net^
 ||7w.ro^
 ||ad.dc2.adtech.de^
+||ad.mox.tv^
 ||ad2.ip.ro^
 ||admonitoring.bsgroup.ro^
 ||adnxs.com^
@@ -22,6 +23,7 @@
 ||adservice.google.ro^
 ||adservingfactory.com^
 ||adsymptotic.com^
+||advertising.oriel.io^
 ||akamai.smartadserver.com^
 ||app.marketizator.com^
 ||apps.thinkdigital.ro^
@@ -29,13 +31,17 @@
 ||bbcdn.ad2.ip.ro
 ||bbcdn.go.adevolution.bbelements.com^
 ||bbcdn.go.cz.bbelements.com^
+||bidder.criteo.com^
 ||bidswitch.net^
 ||block.sw1block.com^
 ||brand.ad^
 ||brat-online.ro^
 ||bride.ru^
 ||cdn.onesignal.com^
+||cdn.sendpulse.com^
+||cdn.taboola.com^
 ||cdn.teads.tv^
+||code3.adtlgc.com^
 ||coinhive.com^
 ||content.ad20.net^
 ||content.adunity.com^
@@ -56,20 +62,25 @@
 ||fx.gtop.ro^
 ||gemius.pl^
 ||go.netbet.ro^
-||worldgravity.com^
+||hit-pool.upscore.com^
 ||ib.adnxs.com^
 ||icorpadro.hit.gemius.pl^
 ||js-agent.newrelic.com^
 ||linkweb.ro^
+||match.adsrvr.org^
 ||media.leftclick.ro^
+||match.taboola.com^
 ||megapopads.com^
 ||moatads.com^
 ||new.cetrk.com^
 ||onlinesupaads.com^
 ||pagefair.com^
 ||parsely.com^
+||pixel.mathtag.com^
 ||profiling.avandor.com^
 ||projectagora.s3.amazonaws.com
+||projectagoratech.com^
+||psd.marketing^
 ||realitatero.adocean.pl^
 ||recs.engageya.com^
 ||retargeting-data.eu^
@@ -79,9 +90,12 @@
 ||ro.search.etargetnet.com
 ||rt.awstaticdn.net^
 ||s.atemda.com^
+||sb.scorecardresearch.com^
+||scomcluster.cxense.com^
 ||serving-sys.com^
 ||smartadserver.com^
 ||st.ad.adnow.com^
+||static.criteo.net^
 ||st-n.ads1-adnow.com^
 ||st-n.pc1ads.com^
 ||storage.trafic.ro^
@@ -90,6 +104,7 @@
 ||tags.crwdcntrl.net^
 ||tinypass.com^
 ||tynt.com
+||worldgravity.com^
 ||zontera.com^
 ||zopim.com^
 
@@ -135,12 +150,13 @@ ro##trafic
 @@||static-olxeu.akamaized.net/static/olxro/naspersclassifieds-regional/olxeu-atlas-web-olxro/static/img/favicon.ico?v=4$image,domain=www.olx.ro
 @@AC_RunActiveContent.js
 ~4tuning.ro##.adsbygoogle
+curspenet.ro#@#DIV[id*="banner"]
+madalinfrunza.ro#@#DIV[class^="banner"]
 promozone.ro,emag.ro#@#[href*="/promo"]
 revista22.ro##IMG[src*="banner"]
 
 !porcarii
-||24fun.ro/widget/?
-||academiacatavencu.info/js/plugins/magnific-popup/magnific.js
+||adevarul.ro/sites/adevarul.ro/ui/css/netflix.css
 ||agerpres.ro/agerpres/BannerFetch*
 ||ajax.cloudflare.com/cdn-cgi/nexp/dok3v=088620b277/cloudflare.min.js$script,domain=vocea.biz
 ||assets.protv.ro/assets/promotor/deBarbati/banner-top-simple.png$image
@@ -162,11 +178,13 @@ revista22.ro##IMG[src*="banner"]
 ||ejobs.ro/3rdparty/wall_street/wall_street.js
 ||europafm.ro/wp-content/uploads/2017/09/telekom-Sea-Hero.jpg$image
 ||http://s1.olx.ro/static/olxro/naspersclassifieds-regional/olxeu-atlas-web/static/js/advertising.js
+||imagini.lege5.ro:444/Ajax/GetBannersImages$image
 ||img.wall-street.ro/images/common/
 ||iqads.ro/upcoming/*
 ||jurnalul.ro/usr/casete/
 ||l.yimg.com/g/images/spaceball.gif
 ||libertatea.ro/usr/casete/
+||m.adevarul.ro/sites/adevarul.ro/ui/css/netflix.css
 ||media.hotnews.ro/media_server1/image-2010-03-18-7044595-0-comunicat-presa.jpg
 ||media.hotnews.ro/media_server1/image-2013-01-8-13964838-0-2013-siveco-stanga.jpg$image
 ||media.hotnews.ro/media_server1/image-2015-12-4-20641634-0-paravion-londra-4-dec.jpg$image
@@ -178,6 +196,7 @@ revista22.ro##IMG[src*="banner"]
 ||nosteam.ro/js/common.lib.js
 ||nosteam.ro/js/jquery.min.25-t1.js
 ||nosteam.ro/Themes/*alph21$script
+||paginademedia.ro/wp-content/uploads/2019/05/doneaza_paginamedia.jpg
 ||priceexpert.com/detect.js
 ||profitshare.ro/j/jXY
 ||reportervirtual.ro/wp-content/plugins/facebook-page-promoter-lightbox-premium/*
@@ -254,6 +273,8 @@ money.ro##.gruprcfooter
 nosteam.ro##DIV#stickynote4 > *
 paginademedia.ro##.hidden-xs-down.site-video
 paginademedia.ro##.video-sticky
+playtech.ro###strawberry_feeds_manager_positions_widget-2 > .sirc > .sirc__list
+playtech.ro##.mg-top-20
 price.ro##TABLE#effortTable > TBODY > *:first-child + * *
 profit.ro##.box-readmore
 realitatea.feedsportal.com##DIV.mf-viral + * + * + A:last-child > *
